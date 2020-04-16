@@ -2,7 +2,7 @@
 
 Essa foi minha primeira palestrar, ela aconteceu na LinkAPI em São Paulo Berrini em um evento organizado pela comunidade do Nerdzão.
 
-Vocês podem consultar os slides usados nesse link: https://slides.com/rubensflinco/deck-2 
+Vocês podem consultar os slides usados nesse link: https://slides.com/rubensflinco/palestra-mongodb-getting-started
 
 # Sobre o repositorio
 
