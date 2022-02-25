@@ -7,7 +7,7 @@ function create(cName, query, database = config.mongodb.database) {
     return new Promise((resolve, reject) => {
 
         var MongoClient = require('mongodb').MongoClient;
-        var url = "mongodb://" + config.mongodb.username + ":" + config.mongodb.password + "@" + config.mongodb.host + ":" + config.mongodb.porta + "/" + database + "";
+        var url = config.mongodb.string;
         var urlO = { useNewUrlParser: true };
 
         // conecta no banco
@@ -58,7 +58,7 @@ function find(cName, query, database = config.mongodb.database) {
     return new Promise((resolve, reject) => {
 
         var MongoClient = require('mongodb').MongoClient;
-        var url = "mongodb://" + config.mongodb.username + ":" + config.mongodb.password + "@" + config.mongodb.host + ":" + config.mongodb.porta + "/" + database + "";
+        var url = config.mongodb.string;
         var urlO = { useNewUrlParser: true };
 
         // conecta no banco
@@ -107,7 +107,7 @@ function remove(cName, query, database = config.mongodb.database) {
     return new Promise((resolve, reject) => {
 
         var MongoClient = require('mongodb').MongoClient;
-        var url = "mongodb://" + config.mongodb.username + ":" + config.mongodb.password + "@" + config.mongodb.host + ":" + config.mongodb.porta + "/" + database + "";
+        var url = config.mongodb.string;
         var urlO = { useNewUrlParser: true };
 
         // conecta no banco
@@ -156,7 +156,7 @@ function update(cName, query, jsonNew, database = config.mongodb.database) {
     return new Promise((resolve, reject) => {
 
         var MongoClient = require('mongodb').MongoClient;
-        var url = "mongodb://" + config.mongodb.username + ":" + config.mongodb.password + "@" + config.mongodb.host + ":" + config.mongodb.porta + "/" + database + "";
+        var url = config.mongodb.string;
         var urlO = { useNewUrlParser: true };
 
         // conecta no banco
