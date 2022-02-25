@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "author": "Rubens Flinco",
   "scripts": {
-    "start": "nodemon ./bin/www"
+    "start": "node ./bin/www",
+    "build": "npm install"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
